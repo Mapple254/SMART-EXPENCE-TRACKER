@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1c1c1c;
+    color: #fff;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.set-income-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.set-income-button:hover {
+    background-color: #0056b3;
+}
+
+.clear-filters-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.clear-filters-button:hover {
+    background-color: #c82333;
+}
+
+.filters {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.expense-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.expense-list li {
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expense-list .expense-details {
+    flex-grow: 1;
+}
+
+.balance-section {
+    margin-top: 20px;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 5px;
+}
+
